@@ -7,7 +7,7 @@ package hape1bif;
 
 /**
  *
- * @author 61klir1bif
+ * @author 61hape1bif
  */
 public class Settings extends javax.swing.JFrame {
 

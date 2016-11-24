@@ -10,7 +10,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  *
- * @author 61klir1bif
+ * @author 61hape1bif
  */
 public class MainWindow extends javax.swing.JFrame {
 
@@ -81,17 +81,18 @@ public class MainWindow extends javax.swing.JFrame {
                 "Nummer", "Name", "Vorname", "E-Mail", "Beginn", "Ende", "Stunden/Monat", "Stundenvergütung", "Betreuer", "Projekt-Name", "Betreuer-Mail", "KST", "Ausgestellt am"
             }
         ));
+        contractsTable.getTableHeader().setReorderingAllowed(false);
         jScrollPane4.setViewportView(contractsTable);
 
         javax.swing.GroupLayout contractsTabLayout = new javax.swing.GroupLayout(contractsTab);
         contractsTab.setLayout(contractsTabLayout);
         contractsTabLayout.setHorizontalGroup(
             contractsTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 602, Short.MAX_VALUE)
+            .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 1063, Short.MAX_VALUE)
         );
         contractsTabLayout.setVerticalGroup(
             contractsTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 286, Short.MAX_VALUE)
+            .addComponent(jScrollPane4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 497, Short.MAX_VALUE)
         );
 
         mainTab.addTab("Verträge", contractsTab);
@@ -113,11 +114,11 @@ public class MainWindow extends javax.swing.JFrame {
         septemberTab.setLayout(septemberTabLayout);
         septemberTabLayout.setHorizontalGroup(
             septemberTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 602, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1063, Short.MAX_VALUE)
         );
         septemberTabLayout.setVerticalGroup(
             septemberTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 286, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 497, Short.MAX_VALUE)
         );
 
         mainTab.addTab("September", septemberTab);
@@ -139,11 +140,11 @@ public class MainWindow extends javax.swing.JFrame {
         octoberTab.setLayout(octoberTabLayout);
         octoberTabLayout.setHorizontalGroup(
             octoberTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 602, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 1063, Short.MAX_VALUE)
         );
         octoberTabLayout.setVerticalGroup(
             octoberTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 286, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 497, Short.MAX_VALUE)
         );
 
         mainTab.addTab("Oktober", octoberTab);
@@ -165,11 +166,11 @@ public class MainWindow extends javax.swing.JFrame {
         novemberTab.setLayout(novemberTabLayout);
         novemberTabLayout.setHorizontalGroup(
             novemberTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 602, Short.MAX_VALUE)
+            .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 1063, Short.MAX_VALUE)
         );
         novemberTabLayout.setVerticalGroup(
             novemberTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 286, Short.MAX_VALUE)
+            .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 497, Short.MAX_VALUE)
         );
 
         mainTab.addTab("November", novemberTab);
@@ -191,11 +192,11 @@ public class MainWindow extends javax.swing.JFrame {
         decemberTab.setLayout(decemberTabLayout);
         decemberTabLayout.setHorizontalGroup(
             decemberTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 602, Short.MAX_VALUE)
+            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 1063, Short.MAX_VALUE)
         );
         decemberTabLayout.setVerticalGroup(
             decemberTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 286, Short.MAX_VALUE)
+            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 497, Short.MAX_VALUE)
         );
 
         mainTab.addTab("Dezember", decemberTab);
@@ -217,11 +218,11 @@ public class MainWindow extends javax.swing.JFrame {
         januaryTab.setLayout(januaryTabLayout);
         januaryTabLayout.setHorizontalGroup(
             januaryTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 602, Short.MAX_VALUE)
+            .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 1063, Short.MAX_VALUE)
         );
         januaryTabLayout.setVerticalGroup(
             januaryTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 286, Short.MAX_VALUE)
+            .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 497, Short.MAX_VALUE)
         );
 
         mainTab.addTab("Januar", januaryTab);
@@ -243,11 +244,11 @@ public class MainWindow extends javax.swing.JFrame {
         februaryTab.setLayout(februaryTabLayout);
         februaryTabLayout.setHorizontalGroup(
             februaryTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 602, Short.MAX_VALUE)
+            .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 1063, Short.MAX_VALUE)
         );
         februaryTabLayout.setVerticalGroup(
             februaryTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 286, Short.MAX_VALUE)
+            .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 497, Short.MAX_VALUE)
         );
 
         mainTab.addTab("Februar", februaryTab);
@@ -359,11 +360,15 @@ public class MainWindow extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(mainTab)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(mainTab, javax.swing.GroupLayout.PREFERRED_SIZE, 1068, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(mainTab, javax.swing.GroupLayout.Alignment.TRAILING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(mainTab, javax.swing.GroupLayout.PREFERRED_SIZE, 525, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
